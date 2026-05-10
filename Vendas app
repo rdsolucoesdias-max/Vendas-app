@@ -261,3 +261,13 @@ html,body{height:100%;overflow:hidden;font-family:'Segoe UI',system-ui,sans-seri
 .cart-item-info{flex:1}
 .cart-item-name{font-size:14px;font-weight:600}
 .cart
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+  // Inicialização do cliente Supabase
+  const _supabaseUrl = 'SUA_URL_AQUI';
+  const _supabaseKey = 'SUA_ANON_KEY_AQUI';
+  const supabase = supabase.createClient(_supabaseUrl, _supabaseKey);
+
+  console.log("Supabase conectado com sucesso!");
+</script>
+
